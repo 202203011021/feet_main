@@ -1,0 +1,103 @@
+.full-screen-div {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;  /* Ekranın tam genişliği */
+    height: 100vh; /* Ekranın tam yüksekliği */
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed; /* Sabit konumda */
+    top: 0; /* Ekranın en üstü */
+    left: 0; /* Ekranın en solu */
+    z-index: 9999; /* Tüm diğer öğelerin önüne geçmesi için yüksek bir z-index değeri */
+    transition: 0.5s;
+}
+
+.signup{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    background-color: whitesmoke;
+    width: 30rem;
+    height: 35rem;
+    border: 2px solid rgb(1, 255, 255); /* Mavi border */
+    box-shadow: 0 0 11px rgb(5, 35, 117), 0 0 11px rgb(16, 68, 165), 0 0 5px rgb(8, 65, 170), 0 0 10px rgb(21, 86, 148);
+    border-radius: 10px;
+}
+
+#signh1{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#signh1 h1{
+    margin-top: 15px;
+}
+
+.signup label, .signinput{
+    margin-left: 1.2rem;
+    padding-top: 0.5rem;
+}
+.signup label{
+    margin-bottom: 0.2rem;
+}
+
+.signup .signinput {
+    padding-bottom: 0.5rem;
+    padding-right: 14rem;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    width: 90%;
+   
+}
+
+.sifrecheck{
+    display: flex;
+    flex-direction: row;
+}
+.sifrecheck input{
+    margin-left: 0.5rem;
+    margin-bottom: 0.9rem;
+}
+
+.signbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.signbutton button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(26, 26, 190);
+    background-color: white;
+   
+}
+
+.signbutton button:hover{
+    background-color: rgb(57, 87, 187);
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.exit{
+    position: absolute;
+    top: 10px; /* Üstten 10px boşluk */
+    right: 10px; /* Sağdan 10px boşluk */
+    cursor: pointer; /* Exit ikonuna fare imleci gelince tıklanabilir olduğunu göster */
+    
+}
+
+.exit svg:hover{
+    color: blue;
+    transition: 0.5s;
+}
+

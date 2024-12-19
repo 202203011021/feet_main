@@ -1,0 +1,238 @@
+.body{
+    height: 250vh;
+}
+
+#kapsayici1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F8F9FA;
+}
+
+.kapsayici1sol{
+display: flex;
+flex-direction: column;
+padding-top: 12rem;
+   padding-bottom: 14rem;
+   padding-left: 12rem;
+width: 50%;
+}
+.kapsayici1sol p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-right: 200px;
+    padding-left: 5px;
+    padding-top: 10px;
+   
+}
+.kapsayiciinput{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+    
+
+}
+
+.kapsayiciinput button{
+   width: 10%;
+    margin-top: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   border-radius: 20px;
+   color: #FDFEFE;
+   background-color: #1D5CA2;
+   text-decoration: none;
+   border: 1px solid white;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 12px rgba(0, 0, 0, 0.1);
+   transition: box-shadow 0.3s ease;
+}
+
+.kapsayiciinput button:hover{
+    color:#fdfefed5 ;
+    background-color: #2562a7;
+    
+transition: 0.5s;
+}
+
+#kapsayici1text{
+    display: flex;
+    width: 70%;
+    margin-top: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+border-radius: 20px;
+}
+/* */ /* *//* *//* *//* *//* *//* *//* *//* *//* */
+
+.kapsayici1sag{
+    padding-left: 7rem;
+    
+}
+
+.kapsayici1sag table {
+    width: 100%;
+    height: 10rem;
+    border-collapse: collapse;
+}
+.kapsayici1sag th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.kapsayici1sag th {
+    background-color: #f2f2f2;
+}
+.kapsayici1sag  .name-cell {
+    background-color: #e0ecff;
+    font-weight: bold;
+}
+.kapsayici1sag  .red {
+    background-color: #f8d7da;
+}
+
+.kapsayici1sag  .red:hover {
+    background-color: #f0bec2;
+}
+
+.kapsayici1sag  .green {
+    background-color: #d4edda;
+}
+
+.kapsayici1sag  .green:hover {
+    background-color: #b7e9c2;
+}
+.kapsayici1sag  .icon {
+    margin-right: 5px;
+}
+
+/*alt kısım*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.step {
+    max-width: 380px;
+    flex: 1;
+    margin: 0 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.step img {
+    width: 250px;
+    height: 150px;
+}
+
+.step h3 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.container button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.conteiner button:hover {
+    background-color: #003d80;
+}
+.paragraf{
+        margin-top: 30px; 
+        font-size: 2.5rem; /* Daha büyük ve dikkat çekici */
+        font-weight: bold;
+        color: #333; /* Daha koyu bir renk tonu */
+        text-align: center; /* Ortalayabilirsiniz */
+        margin-bottom: 20px; /* Başlık ile metin arasında boşluk */
+}
+.yazi{
+    margin: 0 75px;
+    font-size: 1.35rem; /* Yazı boyutunu biraz büyüt */
+  line-height: 1.8; /* Satırlar arasını ferahlat */
+  color: #333; /* Yazı rengini belirgin yap */
+  text-align: center; /* Yazıyı ortala */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+    
+}
+
+
+#iletisim {
+    padding: 30px;
+    background-color: #f4f4f4; /* Hafif gri bir arka plan */
+    border-radius: 10px; /* Köşeleri yuvarlat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    text-align: center; /* Tüm yazıları ortala */
+  }
+  
+  .iletisim-baslik {
+    font-size: 2.5rem; /* Daha büyük ve dikkat çekici */
+        font-weight: bold;
+        color: #333; /* Daha koyu bir renk tonu */
+        text-align: center; /* Ortalayabilirsiniz */
+    margin-bottom: 20px; /* Başlık ve içerik arasına boşluk */
+  }
+  
+  .iletisim-bilgileri {
+    font-size: 1.2rem; /* Yazı boyutunu biraz büyüt */
+    line-height: 2; /* Satır aralığını artır */
+    color: #555; /* Orta ton bir gri */
+  }
+  
+  .iletisim-bilgileri p {
+    margin: 10px 0; /* Paragraflar arasında boşluk */
+  }
+  
+  .iletisim-bilgileri strong {
+    color: #007bff; /* Önemli metinler mavi renk */
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .social-icon i {
+    font-size: 30px;
+    color: #000;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover i {
+    color: #0073e6; /* Hover rengi */
+  }
+  
+  
+  
